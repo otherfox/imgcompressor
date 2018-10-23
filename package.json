@@ -1,0 +1,40 @@
+{
+  "name": "imgcompressor",
+  "version": "1.0.0",
+  "description": "A tool to help developers quickly compress images on the fly before pushing to production",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenniesdesign/imgcompressor.git"
+  },
+  "keywords": [
+    "image",
+    "compressor",
+    "jpeg",
+    "compressor",
+    "png",
+    "compressor",
+    "svg",
+    "compressor",
+    "image",
+    "optimization"
+  ],
+  "author": "Nick Tennies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenniesdesign/imgcompressor/issues"
+  },
+  "homepage": "https://github.com/tenniesdesign/imgcompressor#readme",
+  "dependencies": {
+    "gpagespeed": "^5.0.4",
+    "gulp": "^3.9.1",
+    "imagemin": "^6.0.0",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-svgo": "^7.0.0"
+  }
+}
